@@ -2,12 +2,6 @@ version: 0.2
 
 run-as: root
 
-env:
-  parameter-store:
-            DB_HOST: "/prajwal/DB_HOST"
-            DB_NAME: "/prajwal/DB_NAME"
-            DB_USER: "/prajwal/DB_USER"
-            DB_PASSWORD: "/prajwal/DB_PASSWORD"
 
 
 phases:
