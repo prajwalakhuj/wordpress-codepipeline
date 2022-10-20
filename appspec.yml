@@ -5,6 +5,7 @@ files:
   - source: /
     destination: /var/www/wordpress
     overwrite: true
+file_exists_behavior: OVERWRITE
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies.sh
